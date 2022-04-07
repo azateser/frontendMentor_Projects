@@ -15,8 +15,8 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 |Name|Difficulty| Technologies / Approaches |
 |---|---|---|
 |  [QR code component](https://github.com/azateser/frontendMentor_Projects/tree/main/src/QR%20code%20component) | :star:   | HTML, CSS |
-|---|---|---|
+
 |  [NFT preview card component](https://github.com/azateser/frontendMentor_Projects/tree/main/src/NFT%20preview%20card%20component) | :star:   | HTML, CSS |
-|---|---|---|
+
 |  [Order summary component](https://github.com/azateser/frontendMentor_Projects/tree/main/src/Order%20summary%20component) | :star:   | HTML, CSS |
 |---|---|---|

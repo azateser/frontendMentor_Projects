@@ -14,4 +14,4 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 
 |Name|Difficulty| Technologies / Approaches |
 |---|---|---|
-|  [QR code component](Add_Project_link) | :star:   | HTML, CSS |
+|  [QR code component](https://github.com/azateser/frontendMentor_Projects/tree/main/src/QR%20code%20component) | :star:   | HTML, CSS |

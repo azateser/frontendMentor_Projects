@@ -14,4 +14,4 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 
 |Name|Difficulty| Technologies / Approaches |
 |---|---|---|
-|  [Adding Project Name](Add_Project_link) | :star:   | HTML, CSS, JS |
+|  [QR code comments](Add_Project_link) | :star:   | HTML, CSS |

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/output.css" rel="stylesheet">
+    <!-- FONT AWSOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Google Libre Franklin Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flex flex-col py-14  items-center justify-center ">
+        <div class="bg-white flex flex-col items-center p-4 h-max">
+            <div class="mb-10 w-20"><img src="./images/logo.svg" alt=""></div>
+            <div class="text-center">
+                <div class="text-[#969696] font-light text-4xl">We are launching <span class="text-[#151F29] font-bold">soon!</span></div>
+                <div class="mt-4 text-[#151F29] text-lg">Subscribe and get notified</div>
+            </div>
+            <div>
+                <form class="flex flex-col" name="email_form">
+                    <div class="flex flex-col md:flex-row mt-6 mb-2">
+                        <div><input class="w-96 text-base placeholder-gray-200 border-gray-200 border-2 px-3 py-3 rounded-full" type="text" placeholder="Your email adress..." name="email_area"></div>
+                        <div><button class="w-full bg-[#4F7DF3] text-sm font-semibold mt-5 md:mt-0 md:ml-4 px-16 py-4 rounded-full text-white shadow-md shadow-[#C2D3FF]" id="submit" name="submit" onclick="ValidateEmail(document.email_form.email_area); return false;">Notify Me</button></div>
+                    </div>
+                    <div id="hata" class="mb-8 text-sm float-left font-light text-[#FF5263] ml-4" style="display:none ">Please proivde a valid email adress</div>
+                </form>
+
+            </div>
+            <div class="mt-4 w-10/12 md:w-5/12 "><img src="./images/illustration-dashboard.png " alt=" "></div>
+            <div class="mt-8 mb-4 ">
+                <span class="cursor-pointer px-3 py-2 text-sm rounded-full border-[1px] text-[#4F7DF3] "><i class="fa-brands fa-facebook-f "></i></span>
+                <span class="ml-1 cursor-pointer px-[10px] py-2 text-sm rounded-full border-[1px] text-[#4F7DF3] "><i class="fa-brands fa-twitter "></i></span>
+                <span class="ml-1 cursor-pointer px-[10px] py-2 text-sm rounded-full border-[1px] text-[#4F7DF3] "><i class="fa-brands fa-instagram "></i></span>
+            </div>
+            <div class="text-sm text-[#969696] mt-3 ">&copy; Copyright Ping. All rights reserved.</div>
+        </div>
+    </div>
+
+    <div class="attribution text-base ">Challenge by <a class="text-gray-500 font-medium " href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a class="text-indigo-500 font-bold " href="https://github.com/azateser ">Azat ESER</a>.</div>
+
+    <script src="./function.js "></script>
+
+</body>
+
+</html>

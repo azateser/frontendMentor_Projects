@@ -14,7 +14,7 @@ module.exports = {
                 'profile-card': "url('/frontendMentor_Projects/src/Profile card component/images/bg-pattern-card.svg')",
 
                 'bg-intro-desktop': "url('/frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-desktop.png')",
-                'bg-intro-mobile': "url('frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-mobile.png')",
+                'bg-intro-mobile': "url('/frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-mobile.png')",
             },
         },
     },

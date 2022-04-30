@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/output.css" rel="stylesheet">
+
+    <!-- Google Poppins Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flex flex-col lg:h-screen items-center justify-center bg-bg-intro-desktop bg-[#FF7A7A] bg-center">
+        <div class="flex flex-col lg:flex-row lg:h-screen p-20 lg:p-40 items-center">
+            <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
+                <div class="text-white text-5xl font-bold mb-12">Learn to code by watching others</div>
+                <div class="text-white font-normal font-">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</div>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <div class="mb-8">
+                    <button class="bg-[#6055A5] font-normal p-4 w-full text-white rounded-lg shadow-[0px_6px_#00000026]"><span class="font-semibold">Try it free 7 days</span> then $20/mo. thereafter</button>
+                </div>
+                <div>
+                    <form action="">
+                        <div class="flex flex-col bg-white p-8 rounded-lg shadow-[0px_6px_#00000026]">
+                            <div class="flex flex-col mb-4">
+                                <input class="outline-none focus:border-[#6055A5] p-3 pl-8 border-2 rounded-md mb-1 mt-4" type="text" id="firstname" placeholder="First Name">
+                                <span class="text-[#FF7A7A] text-xs font-medium text-right" style="display: none" id="error_firstname">First Name cannot be empty</span>
+                            </div>
+                            <div class="flex flex-col mb-4">
+                                <input class="outline-none focus:border-[#6055A5] p-3 pl-8 border-2 rounded-md mb-1" type="text" id="lastname" placeholder="Last Name">
+                                <span class="text-[#FF7A7A] text-xs font-medium text-right" style="display: none" id="error_lastname">Last Name cannot be empty</span>
+                            </div>
+                            <div class="flex flex-col mb-4">
+                                <input class="outline-none focus:border-[#6055A5] p-3 pl-8 border-2 rounded-md mb-1" type="text" id="email" placeholder="Email Address">
+                                <span class="text-[#FF7A7A] text-xs font-medium text-right" style="display: none" id="error_email">Looks like this is not an email</span>
+                            </div>
+                            <div class="flex flex-col mb-4">
+                                <input class="outline-none focus:border-[#6055A5] p-3 pl-8 border-2 rounded-md mb-1" type="text" id="password" placeholder="Password">
+                                <span class="text-[#FF7A7A] text-xs font-medium text-right" style="display: none" id="error_password">Password cannot be empty</span>
+                            </div>
+                            <input onclick="send()" class="p-3 bg-[#38CC8C] w-full text-white rounded-md shadow-[0px_4px_#09642cab] mb-4 cursor-pointer uppercase font-medium" type="button" value="Claim your free trial ">
+                            <span class="text-center text-xs font-semibold text-[#B9B6D3] mb-4">By clicking the button, you are agreeing to our <a class="text-[#FF7A7A] font-bold" href="#">Terms and Services</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">Challenge by <a class="text-gray-500 font-medium" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a class="text-indigo-500 font-bold" href="https://github.com/azateser">Azat ESER</a>.</div>
+    <script src="./function.js"></script>
+</body>
+
+</html>

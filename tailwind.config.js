@@ -7,6 +7,7 @@ module.exports = {
                 inter: ['Inter', 'sans-serif'],
                 shoulders: ['Big Shoulders Display', 'cursive'],
                 kumbh: ['Kumbh Sans', 'sans-serif'],
+                poppins: ['Poppins', 'sans-serif'],
             },
             backgroundImage: {
                 'profile-card-bg-top': "url('/frontendMentor_Projects/src/Profile card component/images/bg-pattern-top.svg')",
@@ -15,6 +16,8 @@ module.exports = {
 
                 'bg-intro-desktop': "url('/frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-desktop.png')",
                 'bg-intro-mobile': "url('/frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-mobile.png')",
+
+                'bg-huddle-desktop': "url('/frontendMentor_Projects/src/Huddle%20landing%20page%20with%20a%20single%20introductory%20section/images/bg-huddle-desktop.png')",
             },
         },
     },

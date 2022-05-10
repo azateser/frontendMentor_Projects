@@ -18,6 +18,8 @@ module.exports = {
                 'bg-intro-mobile': "url('/frontendMentor_Projects/src/Intro%20component%20with%20sign-up%20form/images/bg-intro-mobile.png')",
 
                 'bg-huddle-desktop': "url('/frontendMentor_Projects/src/Huddle%20landing%20page%20with%20a%20single%20introductory%20section/images/bg-desktop.svg')",
+
+                'bg-base-desktop': "url('/frontendMentor_Projects/src/Base%20Apparel%20coming%20soon%20page/images/bg-pattern-desktop.svg')",
             },
         },
     },

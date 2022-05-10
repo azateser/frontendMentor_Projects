@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Google Josefin Sans Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flex flex-col md:flex-row md:h-screen items-center justify-center">
+        <div class="md:py-16 md:px-60 bg-bg-base-desktop bg-no-repeat bg-cover h-screen">
+            <div class="p-10 md:p-0"><img class="w-32" src="./images/logo.svg" alt=""></div>
+            <div class="flex md:hidden ">
+                <img class="object-cover w-full" src="./images/hero-mobile.jpg" alt="">
+            </div>
+            <div class="mt-16 md:mt-28 mb-10 text-center md:text-left">
+                <div class="font-light tracking-[1rem] text-5xl md:text-6xl uppercase text-[#CE9797]">We're</div>
+                <div class="mt-2 mb-8 font-normal tracking-[1rem] text-5xl md:text-6xl text-[#413A3A] uppercase">coming <br /> soon</div>
+                <div class="text-[#CE9797]">Hello fellow shoppers! We're currently building our new <br /> fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</div>
+
+                <div class="ml-28 md:ml-0 mt-8 flex items-center justify-center border-2 border-[#e5d4d8] w-2/3 md:w-max rounded-full" id="input_border">
+                    <form class="flex items-center" name="email_form">
+                        <input class="bg-[#0000] w-72 focus:outline-none ml-5 placeholder-[#e5d4d8] rounded-full" type="text" name="email_area" placeholder="Email Address">
+                        <img class="mr-4 inline-block" src="./images/icon-error.svg" alt="error_icon" style="display:none" id="hata_icon">
+                        <button id="submit" name="submit" onclick="ValidateEmail(document.email_form.email_area); return false;" class="hover:scale-110 hover:shadow-xl transition-all duration-300 bg-gradient-to-r to-[#EE8C8C] from-[#F8BFBF] py-4 px-10 rounded-full"><img src="./images/icon-arrow.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="mt-2 ml-6 text-red-400 font-light" style="display:none" id="hata_text">Please provide a valid email.</div>
+            </div>
+
+        </div>
+        <div class="hidden md:flex">
+            <img class="object-cover w-full h-screen" src="./images/hero-desktop.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="attribution">Challenge by <a class="text-gray-500 font-medium" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a class="text-indigo-500 font-bold" href="https://github.com/azateser">Azat ESER</a>.</div>
+
+
+    <script src="./function.js"></script>
+</body>
+
+</html>

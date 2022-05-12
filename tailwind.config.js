@@ -20,6 +20,8 @@ module.exports = {
                 'bg-huddle-desktop': "url('/frontendMentor_Projects/src/Huddle%20landing%20page%20with%20a%20single%20introductory%20section/images/bg-desktop.svg')",
 
                 'bg-base-desktop': "url('/frontendMentor_Projects/src/Base%20Apparel%20coming%20soon%20page/images/bg-pattern-desktop.svg')",
+
+                'bg-social-desktop': "url('/frontendMentor_Projects/src/Social%20proof%20section/images/bg-pattern-bottom-desktop.svg')",
             },
         },
     },

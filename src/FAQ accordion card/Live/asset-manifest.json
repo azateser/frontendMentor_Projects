@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2aaf3baf.css",
+    "main.js": "/static/js/main.26785d23.js",
+    "static/media/illustration-woman-online-mobile.svg": "/static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
+    "static/media/illustration-woman-online-desktop.svg": "/static/media/illustration-woman-online-desktop.843eb114c7213a596ee246bf87f27008.svg",
+    "static/media/illustration-box-desktop.svg": "/static/media/illustration-box-desktop.ec1ba14b853c562a663728483bac4824.svg",
+    "static/media/bg-pattern-desktop.svg": "/static/media/bg-pattern-desktop.f51e07a2f52390c60484dd7a5bc7d842.svg",
+    "index.html": "/index.html",
+    "static/media/bg-pattern-mobile.svg": "/static/media/bg-pattern-mobile.55aee9128a769eedabec262efb8ace48.svg",
+    "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.852fa301a0e795e07c5966b1c156025f.svg",
+    "main.2aaf3baf.css.map": "/static/css/main.2aaf3baf.css.map",
+    "main.26785d23.js.map": "/static/js/main.26785d23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aaf3baf.css",
+    "static/js/main.26785d23.js"
+  ]
+}

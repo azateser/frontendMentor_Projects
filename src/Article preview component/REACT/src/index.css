@@ -41,3 +41,7 @@
 .share-box-arrow{
 @apply absolute w-0 h-0 border-r-[20px] border-r-transparent border-l-[20px] border-l-transparent lg:border-t-[16px] lg:border-t-[#48556A] top-14 left-28
 }
+
+.attribution{
+    @apply fixed m-auto text-center bg-white bg-opacity-30 shadow-2xl p-2 bottom-0 w-full text-gray-400
+}

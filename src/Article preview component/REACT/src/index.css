@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+@apply flex flex-col lg:flex-row bg-white rounded-md shadow-2xl lg:w-1/2 w-5/6
+}
+
+.left{
+@apply w-full bg-drawers bg-cover lg:rounded-l-md rounded-t-md h-60 lg:h-auto
+}
+
+.right{
+@apply px-10 py-7
+}
+
+.text-title{
+@apply text-[#48556A] font-bold text-[21px] mb-4
+}
+
+.text-description{
+@apply text-[#6D7F97] mb-4
+}
+
+.bottom{
+@apply flex items-center justify-between
+}
+
+.bottom-left{
+@apply flex gap-4
+}
+
+.bottom-right{
+@apply relative bg-[#ECF2F8] rounded-full p-2 hover:bg-[#6D7F97] transition-colors duration-500 cursor-pointer
+}
+
+.share-box{
+@apply lg:w-max flex absolute px-14 py-5 gap-4 lg:rounded-xl lg:-left-28 rounded-md lg:-top-20 w-[20rem]  top-0 -right-10 bg-[#48556A]
+}
+
+.share-box-arrow{
+@apply absolute w-0 h-0 border-r-[20px] border-r-transparent border-l-[20px] border-l-transparent lg:border-t-[16px] lg:border-t-[#48556A] top-14 left-28
+}

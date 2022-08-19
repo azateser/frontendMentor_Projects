@@ -32,7 +32,7 @@ const Form = ({
           <input
             className="border border-[#DEDDDF] rounded-lg py-2 pl-4 text-sm placeholder:text-[#DEDDDF] focus:border-[#6448FE] outline-none"
             type="text"
-            placeholder={`e.g. ${cardName}`}
+            placeholder="e.g. Jane Appleseed"
             onChange={changeCardName}
           />
         </div>
@@ -49,7 +49,7 @@ const Form = ({
               "!border-[#DEDDDF]": null || cardNumber === "",
             })}
             autoComplete="off"
-            placeholder={`e.g. ${cardNumber}`}
+            placeholder="e.g. 1234 5678 9123 0000"
             maskChar="0"
             mask="0000 0000 0000 0000"
             size={20}
@@ -103,6 +103,7 @@ const Form = ({
                 size={2}
                 onChange={changeExpDateYear}
                 id="expDateYear"
+                onBlur={handleConfirm}
               />
             </div>
             <label

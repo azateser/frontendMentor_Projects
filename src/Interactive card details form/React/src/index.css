@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.attribution{
+  @apply fixed m-auto text-center bg-white bg-opacity-30 shadow-2xl p-2 bottom-0 w-full text-gray-400
+}
+
 /* Hidde Number Arrows */
 
 /* Chrome, Safari, Edge, Opera */

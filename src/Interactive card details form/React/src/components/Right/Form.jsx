@@ -103,6 +103,7 @@ const Form = ({
                 size={2}
                 onChange={changeExpDateYear}
                 id="expDateYear"
+                onBlur={handleConfirm}
               />
             </div>
             <label

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #141414;
+  background: #FAFAFA;
+}
+
+.attribution{
+  @apply fixed m-auto text-sm text-center bg-white bg-opacity-30 shadow-2xl p-2 bottom-0 w-full text-gray-400
+}
+.attUserName{
+  @apply font-bold !text-indigo-500
+}

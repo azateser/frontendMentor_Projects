@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-container{
+  @apply flex justify-center items-center lg:flex-row flex-col bg-very-dark-blue lg:h-screen lg:px-[10.55rem] px-6 lg:py-24 py-20
+}
+
+.left{
+  @apply lg:w-[18.2rem] w-80
+}
+.left > .container{
+  @apply bg-dark-blue rounded-xl
+}
+.left .container > .top{
+  @apply flex lg:items-start items-center lg:flex-col flex-row bg-main-blue rounded-xl lg:px-8 px-6 lg:py-9 py-8
+}
+
+.left .container .top > .avatar{
+  @apply lg:w-20 w-[4.5rem] rounded-full border-[3px] border-white
+}
+
+.left-name-area{
+  @apply lg:ml-0 ml-4
+}
+
+.left-name-area > .top{
+  @apply text-pale-blue font-normal lg:mt-10 text-sm
+}
+
+.left-name-area > .name{
+@apply font-light text-white lg:text-[2.5rem] text-2xl lg:leading-[2.85rem] lg:mt-1 lg:mb-12
+}
+
+.left-bottom{
+  @apply lg:py-6 py-5 px-8
+}
+
+.left-bottom > .list{
+  @apply lg:block flex gap-[3.2rem] text-desaturated-blue text-lg
+}
+
+
+.left-bottom .list > .daily{
+  @apply lg:mb-3 cursor-pointer hover:text-pale-blue
+}
+
+.left-bottom .list > .weekly{
+  @apply lg:mb-3 cursor-pointer hover:text-pale-blue
+}
+
+.left-bottom .list > .monthly{
+  @apply cursor-pointer lg:mb-1 hover:text-pale-blue
+}
+
+
+.left-bottom .list > .day-hover{
+  @apply text-pale-blue
+}
+
+.right{
+  @apply flex lg:flex-row flex-col
+}
+
+.card{
+  @apply bg-dark-blue hover:bg-soft-blue cursor-pointer rounded-xl lg:px-7 px-5 py-6 text-white
+}
+
+.card-title{
+  @apply text-lg
+}
+
+.card-text-area{
+  @apply flex lg:flex-col flex-row lg:items-start items-center justify-between
+}
+
+.card-hour{
+  @apply lg:text-6xl text-3xl font-light lg:mt-6 mt-2
+}
+
+.card-previous{
+  @apply text-pale-blue mt-2 font-light lg:text-base text-sm
+}
+
+.attribution{
+  @apply fixed m-auto text-center bg-white/10 shadow-2xl p-2 bottom-0 w-full text-gray-300/30
+}

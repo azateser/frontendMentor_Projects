@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.attribution{
+    @apply fixed m-auto text-center bg-white bg-opacity-30 shadow-2xl p-2 bottom-0 w-full text-gray-400
+}

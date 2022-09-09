@@ -9,6 +9,7 @@ module.exports = {
                 kumbh: ['Kumbh Sans', 'sans-serif'],
                 poppins: ['Poppins', 'sans-serif'],
                 fraunces: ['Fraunces', 'serif'],
+                josefin: ['Josefin Sans', 'sans-serif'],
             },
             backgroundImage: {
                 'profile-card-bg-top': "url('/frontendMentor_Projects/src/Profile card component/images/bg-pattern-top.svg')",
@@ -26,6 +27,7 @@ module.exports = {
 
                 'perfume-desktop': "url('/frontendMentor_Projects/src/Product%20preview%20card%20component/images/image-product-desktop.jpg')",
                 'perfume-mobile': "url('/frontendMentor_Projects/src/Product%20preview%20card%20component/images/image-product-mobile.jpg')",
+                
             },
         },
     },

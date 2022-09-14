@@ -1,0 +1,5 @@
+@import './sections/bill.css';
+@import './sections/tip.css';
+@import './sections/people.css';
+
+@import './components/button.css';

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.attribution{
+  @apply fixed m-auto text-center bg-white bg-opacity-30 shadow-2xl p-2 bottom-0 w-full text-gray-400
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

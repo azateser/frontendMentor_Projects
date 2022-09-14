@@ -1,0 +1,7 @@
+.tip-button{
+    @apply bg-very-dark-cyan hover:bg-strong-cyan hover:text-very-dark-cyan transition-all cursor-pointer text-very-light-grayish-cyan text-2xl items-center text-center py-2 rounded-md
+}
+
+.tip-button-active{
+    @apply !bg-strong-cyan !text-very-dark-cyan
+}

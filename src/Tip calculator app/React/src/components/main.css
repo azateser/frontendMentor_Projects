@@ -1,0 +1,10 @@
+@import "./Outputs/outputs.css";
+@import "./Inputs/inputs.css";
+
+.home-container{
+    @apply md:h-screen flex flex-col items-center md:py-14 py-12 bg-light-grayish-cyan
+}
+
+.main-box{
+    @apply flex md:flex-row flex-col items-center bg-white md:w-[64%] rounded-3xl md:px-12 px-8 md:py-10 py-8 gap-12 shadow-2xl md:mt-20 mt-11
+}

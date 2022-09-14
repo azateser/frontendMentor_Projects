@@ -1,0 +1,15 @@
+.bill-title {
+  @apply text-grayish-cyan;
+}
+
+.bill-container {
+  @apply flex items-center bg-very-light-grayish-cyan rounded-md;
+}
+
+.bill-icon {
+  @apply font-normal text-xl text-grayish-cyan px-4;
+}
+
+.bill-input {
+  @apply outline-none mr-4 text-very-dark-cyan bg-transparent py-2 text-right text-xl w-full;
+}

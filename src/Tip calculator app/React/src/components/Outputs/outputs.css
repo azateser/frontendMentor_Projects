@@ -1,0 +1,33 @@
+.outputs{
+@apply flex flex-col md:px-8 px-6 md:py-12 py-10 justify-between md:w-1/2 w-full bg-very-dark-cyan rounded-2xl
+}
+
+.result-container{
+@apply md:mb-32 mb-8
+}
+
+.result{
+@apply flex items-center justify-between mb-6
+}
+
+.result-head{
+@apply flex flex-col
+}
+
+.result-title{
+@apply text-very-light-grayish-cyan
+}
+
+.result-desc{
+@apply text-grayish-cyan text-sm
+}
+
+.result-value{
+@apply md:text-[2.6rem] text-3xl text-strong-cyan whitespace-nowrap overflow-hidden w-52 float-right text-right
+}
+
+
+
+.reset-button{
+@apply disabled:opacity-25 disabled:pointer-events-none disabled:select-none shadow-lg bg-strong-cyan hover:bg-strong-cyan/90 text-very-dark-cyan w-full py-2 tracking-widest rounded-md text-xl
+}

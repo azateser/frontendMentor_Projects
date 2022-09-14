@@ -1,0 +1,16 @@
+.people-title {
+    @apply text-grayish-cyan;
+  }
+  
+  .people-container {
+    @apply flex items-center bg-very-light-grayish-cyan mt-2 rounded-md
+  }
+  
+  .people-icon {
+    @apply font-normal text-xl text-grayish-cyan px-4
+  }
+  
+  .people-input {
+    @apply outline-none mr-4 text-very-dark-cyan bg-transparent py-2 text-right text-xl w-full
+  }
+  

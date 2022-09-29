@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "type": "reacted",
+    "proifle-pic": "avatar-mark-webber.webp",
+    "name": "Mark Webber",
+    "description": "reacted to your recent post",
+    "link": "My first tournament today!",
+    "time": "1m ago",
+    "status": 1
+  },
+  {
+    "id": 2,
+    "type": "follow",
+    "proifle-pic": "avatar-angela-gray.webp",
+    "name": "Angela Gray",
+    "description": "followed you",
+    "time": "5m ago",
+    "status": 1
+  },
+  {
+    "id": 3,
+    "type": "group",
+    "proifle-pic": "avatar-jacob-thompson.webp",
+    "name": "Jacob Thompson",
+    "description": "has joined your group",
+    "link": "Chess Club",
+    "url": "linkurl",
+    "time": "1 day ago",
+    "status": 1
+  },
+  {
+    "id": 4,
+    "type": "message",
+    "proifle-pic": "avatar-rizky-hasanuddin.webp",
+    "name": "Rizky Hasanuddin",
+    "description": "sent you a private message",
+    "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "time": "5 day ago",
+    "status": 0
+  },
+  {
+    "id": 5,
+    "type": "photo",
+    "proifle-pic": "avatar-kimberly-smith.webp",
+    "name": "Kimberly Smith",
+    "description": "commented on your picture",
+    "photo": "assets/images/image-chess.webp",
+    "time": "1 week ago",
+    "status": 0
+  },
+  {
+    "id": 6,
+    "type": "reacted",
+    "proifle-pic": "avatar-nathan-peterson.webp",
+    "name": "Nathan Peterson",
+    "description": "reacted to your recent post",
+    "link": "5 end-game strategies to increase your win rate",
+    "time": "2 week ago",
+    "status": 0
+  },
+  {
+    "id": 7,
+    "type": "group",
+    "proifle-pic": "avatar-anna-kim.webp",
+    "name": "Anna Kim",
+    "description": "left the group",
+    "link": "Chess Club",
+    "url": "linkurl",
+    "time": "2 week ago",
+    "status": 0
+  }
+]

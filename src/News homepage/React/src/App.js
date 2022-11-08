@@ -3,12 +3,11 @@ import Main from "./components/Main";
 import Bottom from "./components/Bottom";
 
 const App = () => {
-  
   return (
-    <div className="m-auto md:py-[5.5rem] py-7 xl:px-[10.3rem] lg:px-20 md:px-10 px-4">
-    <Header />
-    <Main />
-    <Bottom />
+    <div className="m-auto bg-off-white py-7 px-4 md:py-[5.5rem] md:px-10 lg:px-20 xl:px-[10.3rem]">
+      <Header />
+      <Main />
+      <Bottom />
     </div>
   );
 };

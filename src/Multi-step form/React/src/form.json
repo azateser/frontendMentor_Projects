@@ -4,7 +4,7 @@
       "id": "name",
       "label": "Name",
       "type": "text",
-      "placeholder": "Enter your name"
+      "placeholder": "e.g. Stephen King"
     },
     {
       "id": "email-address",

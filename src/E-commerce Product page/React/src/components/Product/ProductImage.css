@@ -1,0 +1,39 @@
+.product-image {
+  @apply hidden w-full flex-1 md:block;
+}
+
+.product-image .image {
+  @apply min-w-[27.7rem] cursor-pointer rounded-xl;
+}
+
+.product-image .thumbnails {
+  @apply mt-8 flex justify-between;
+}
+
+.product-image .thumbnails .thumbnail {
+  @apply cursor-pointer rounded-lg  outline outline-2 outline-white transition-all hover:outline-orange;
+}
+
+.mobile-slider {
+  @apply relative block h-72 w-full md:hidden;
+}
+
+.mobile-slider .image {
+  @apply h-72 min-w-full object-cover;
+}
+
+.mobile-slider .previous-button {
+  @apply absolute top-1/2 left-5 flex h-11 w-11 items-center justify-center rounded-full bg-white transition-all hover:scale-110 hover:shadow-md;
+}
+
+.mobile-slider .previous-button img {
+  @apply w-3 translate-x-[-2px];
+}
+
+.mobile-slider .next-button {
+  @apply absolute top-1/2 right-5 flex h-11 w-11 items-center justify-center rounded-full bg-white transition-all hover:scale-110 hover:shadow-md;
+}
+
+.mobile-slider .next-button img {
+  @apply w-3 translate-x-[2px];
+}

@@ -1,0 +1,63 @@
+.product-detail {
+  @apply flex-1 px-8 md:px-0;
+}
+
+.product-detail .info {
+  @apply mt-0 lg:mt-14;
+}
+
+.product-detail .info h4 {
+  @apply text-sm font-bold text-orange md:text-base;
+}
+
+.product-detail .info h1 {
+  @apply mt-1 mb-6 text-3xl font-bold md:mt-3 md:mb-10 md:text-[2.75rem] md:leading-[3rem];
+}
+
+.product-detail .info p {
+  @apply text-dark-grayish-blue;
+}
+
+.product-detail .price-area {
+  @apply mt-4 flex flex-row justify-between md:mt-8 md:flex-col md:justify-start;
+}
+
+.product-detail .price-area .new-price {
+  @apply flex items-center gap-6;
+}
+
+.product-detail .price-area .new-price .price {
+  @apply text-[1.6rem] font-bold;
+}
+
+.product-detail .price-area .new-price .discount {
+  @apply select-none rounded-md bg-pale-orange px-2 py-[5px] text-sm font-bold leading-none text-orange md:text-base;
+}
+
+.product-detail .price-area .old-price {
+  @apply mt-2 text-sm font-bold text-grayish-blue line-through md:text-base;
+}
+
+.product-detail .actions {
+  @apply mt-8 flex flex-col items-stretch justify-between gap-4 md:flex-row;
+}
+
+.product-detail .actions .amonut {
+  @apply flex flex-1 items-center justify-between rounded-md bg-light-grayish-blue px-4 py-4 text-center text-xl font-bold md:py-0;
+}
+
+.product-detail .actions .amonut .minus {
+  @apply flex h-full flex-1 select-none items-center justify-start transition-all hover:scale-110 disabled:opacity-50 disabled:hover:scale-100;
+}
+
+.product-detail .actions .amonut .count {
+  @apply flex flex-1 justify-center;
+}
+
+.product-detail .actions .amonut .plus {
+  @apply flex h-full flex-1 select-none items-center justify-end transition-all hover:scale-110;
+}
+
+.product-detail .actions .add-to-card {
+  @apply flex select-none items-center justify-center gap-2 rounded-lg bg-orange fill-white px-[4.8rem] py-4 font-bold text-white shadow-2xl shadow-orange/20 transition-all hover:scale-105 hover:shadow-orange/50 disabled:opacity-50 disabled:hover:scale-100 disabled:hover:shadow-2xl disabled:hover:shadow-orange/20;
+}

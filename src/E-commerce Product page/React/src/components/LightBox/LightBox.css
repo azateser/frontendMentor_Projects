@@ -1,0 +1,47 @@
+.light-box {
+  @apply absolute top-0 left-0 z-50 mt-6 flex w-full flex-col items-center justify-center;
+}
+
+.light-box .black-area {
+  @apply fixed top-0 left-0 z-40 h-screen w-full bg-black/70;
+}
+
+.light-box .content {
+  @apply z-50 m-auto max-w-[34rem];
+}
+
+.light-box .content .close {
+  @apply mt-16 mb-7 flex w-full cursor-pointer items-end justify-end fill-white transition-all hover:fill-orange;
+}
+
+.light-box .content .main-image {
+  @apply relative w-full rounded-xl;
+}
+
+.light-box .content .main-image {
+  @apply relative w-full rounded-xl;
+}
+
+.light-box .content img {
+  @apply rounded-xl;
+}
+
+.light-box .content .main-image .next-button {
+  @apply absolute -right-8 top-1/2 flex h-14 w-14 -translate-y-8 items-center justify-center rounded-full bg-white stroke-[#1D2026] transition-all hover:scale-110 hover:stroke-orange hover:shadow-lg;
+}
+
+.light-box .content .main-image .previous-button {
+  @apply absolute -left-8 top-1/2 flex h-14 w-14 -translate-y-8 items-center justify-center rounded-full bg-white stroke-[#1D2026] transition-all hover:scale-110 hover:stroke-orange hover:shadow-lg;
+}
+
+.light-box .content .thumbnails {
+  @apply mt-10 flex justify-between px-12;
+}
+
+.light-box .content .thumbnails .thumbnail {
+  @apply w-max cursor-pointer rounded-xl outline outline-2 outline-transparent transition-all hover:outline-orange;
+}
+
+.light-box .content .thumbnails .thumbnail img {
+  @apply w-[5.5rem] rounded-xl;
+}
